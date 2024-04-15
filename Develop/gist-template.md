@@ -47,7 +47,7 @@ Let's begin our exploration of the regex matching an email address by looking at
 
 
 
-### Character Escapes
+### Character Escapes for Literals
 
 
 
@@ -67,6 +67,8 @@ In order, from left to right... `.`, `+`, `.`, `.`, and `{2, 6}`.
 
 Ok, we're off to a good start, but some of you may be questioning the periods listed and you are correct to question them. A period, if unescaped, is a character class that represents "any character" (more on character classes in a bit!)
 
+### Grouping and Capturing
+
 
 ### OR Operator
 
@@ -74,7 +76,7 @@ Ok, we're off to a good start, but some of you may be questioning the periods li
 
 ### Flags
 
-### Grouping and Capturing
+
 
 ### Greedy and Lazy Match
 
