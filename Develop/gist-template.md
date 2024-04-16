@@ -61,7 +61,7 @@ In regex, a period that isn't inside of a bracket expression isn't a literal (st
 
 ### Character Classes
 
-![email regex character escapes](./assets/images/regex_5.png)
+![email regex character classes](./assets/images/regex_5.png)
 
 Now, let's take a look at character classes. Character classes are a shorthand of sorts and allow reference to certain types or collections of characters without having to list each possible character explicitly in a bracket expression. One example includes our recently discussed friend, the period. In regex, `.` matches any character except the newline character. That's a lot of characters! Without this shorthand character class, we would have to list each character explicitly (or as a range of characters) and that could make for an unwieldy bracket expression.
 
@@ -69,7 +69,7 @@ Other character classes include `\s` that matches whitespace characters (in this
 
 ### Quantifiers
 
-![email regex character escapes](./assets/images/regex_4.png)
+![email regex quantifiers](./assets/images/regex_4.png)
 
 Quantifiers refers here not to the values of integers or floats, or even matching a specific digit, but to how many times a pattern may (or must) exist to be matched... the quantity of patterns. This could be exact number (we can call it 'n') of times, depicted by `{ n }`, as in the pattern must appear exactly five times, or `{ 5 }`. `{ n, }` indicates a match of *at least* n times, and ` { n, x }` matches a minimum of n times and a maximum of x times.
 
@@ -81,7 +81,7 @@ Yes! We have two instances of `+` and we now know that this means that the brack
 
 Any other quantifiers? Why, yes! 
 
-![email regex character escapes](./assets/images/regex_6.png)
+![more email regex quantifiers](./assets/images/regex_6.png)
 
 The third bracket expression is immediately followed by `{2, 6}`. We now know that the 2 is the minimum number of times it can exist and 6 is the maximum number of times it can exist. In more common parlance, we would say that the string must be 2 to 6 characters.
 
